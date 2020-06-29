@@ -7,7 +7,7 @@ import json
 def login():
 
     config = configparser.ConfigParser()
-    config.read('/home/pi/HoopersCreek/account.config')
+    config.read('/path/to/account.config')
 
     consumer_key = config['Twitter']['api_key']
     consumer_secret = config['Twitter']['api_secret']
